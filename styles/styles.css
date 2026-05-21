@@ -1,13 +1,19 @@
+:root {
+    --primary-color: rgb(141, 194, 232);
+    --secondary-color: rgb(53, 9, 9);
+    --padding: 10px;
+}
+
 nav {
     text-align: center;
-    background-color: rgb(141, 194, 232);
-    padding: 10px;
+    background-color: var(--primary-color);
+    padding: var(--padding);
 }
 
 nav a {
     display: block;
     text-decoration: none;
-    color: rgb(53, 9, 9);
+    color: var(--secondary-color);
     padding: 0.5rem;
 }
 
@@ -16,28 +22,29 @@ main {
 }
 
 h1 {
-    color: rgb(53, 9, 9);
+    color: var(--secondary-color);
 }
 
 main img {
     width: 250px;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid var(--secondary-color);
     padding: 0;
     box-shadow: 10px 10px 5px gray;
 }
 
 p {
     padding: 0;
+    color: var(--secondary-color)
 }
 
 aside {
     width: 20rem;
     margin: 10px;
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    padding: var(--padding);
     background-color: #eee;
-    color: #333;
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -47,7 +54,8 @@ aside img {
 }
 
 footer {
-    margin-top: 10px;
-    border-top: 2px dashed black;
+    background-color: var(--primary-color);
+    padding: var(--padding);
+    border-top: 2px dashed var(--secondary-color);
     text-align: center;
 }
