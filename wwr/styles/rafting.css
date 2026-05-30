@@ -50,9 +50,17 @@ article {
     padding: 8px;
 }
 
+p {
+    color: var(--accent2-color)
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
+}
+
+nav a {
+    color: var(--secondary-color);
 }
 
 .socialmedia a {
