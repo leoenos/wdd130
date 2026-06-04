@@ -1,9 +1,9 @@
 /*Placeholder for now. Will fix and personalize details later*/
 :root {
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
-    --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --primary-color: rgb(26, 19, 92);
+    --secondary-color: rgb(66, 165, 183);
+    --accent1-color: rgba(38, 70, 83, 0.8);
+    --accent2-color: rgba(255, 255, 255, 0.8);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -16,7 +16,6 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
 }
 
 header,
@@ -51,7 +50,7 @@ article {
 }
 
 p {
-    color: var(--accent2-color)
+    color: var(--secondary-color);
 }
 
 nav {
@@ -84,21 +83,23 @@ nav a {
     top: 30px;
     left: 0;
     width: 100%;
-    background-color: rgba(38, 70, 83, 0.8);
-    color: white;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
     text-align: center;
     padding: 20px;
 }
 
 .hero article {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     left: 40px;
     right: 40px;
-
-    background-color: rgba(38, 70, 83, 0.8);
-    color: white;
+    background-color: var(--accent1-color);
     padding: 20px;
+}
+
+.hero article p {
+    color: var(--accent2-color);
 }
 
 .hero article img {
