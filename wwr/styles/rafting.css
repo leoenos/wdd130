@@ -1,9 +1,9 @@
 /*Placeholder for now. Will fix and personalize details later*/
 :root {
     --primary-color: rgb(26, 19, 92);
-    --secondary-color: rgb(17, 144, 166);
+    --secondary-color: rgb(6, 115, 134);
     --accent1-color: rgba(38, 70, 83, 0.8);
-    --accent2-color: rgba(255, 255, 255, 0.8);
+    --accent2-color: rgba(254, 237, 234, 0.8);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -30,6 +30,7 @@ header {
     grid-template-columns: 150px 1fr;
     align-items: center;
     font-family: var(--heading-font);
+    background-color: var(--accent2-color);
 }
 
 header img {
@@ -72,6 +73,10 @@ p {
 .socialmedia img {
     width: 30px;
     height: 30px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .hero {
