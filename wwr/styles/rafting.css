@@ -65,12 +65,13 @@ p {
 }
 
 .socialmedia {
-    width: 50px;
-    height: auto;
+    display: flex;
+    gap: 10px;
 }
 
-.socialmedia a {
-    text-decoration: none;
+.socialmedia img {
+    width: 30px;
+    height: 30px;
 }
 
 .hero {
@@ -116,5 +117,23 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+    align-items: center;
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.adventure-grid img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
