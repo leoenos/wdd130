@@ -54,16 +54,12 @@ main img {
     border: 2px solid var(--secondary-color);
     box-shadow: 10px 10px 5px gray;
     float: right;
-    margin-top: 10px;
+    margin: 15px 0 5px 1rem;
 }
 
 p {
-    padding: var(--padding);
+    margin: 0.5rem;
     color: var(--secondary-color)
-}
-
-ul li a {
-    /**/
 }
 
 aside {
@@ -101,4 +97,8 @@ footer {
     padding: 1rem;
     background-color: #eee;
     color: var(--secondary-color);
+}
+
+.indent {
+    padding-left: 2.25rem;
 }
