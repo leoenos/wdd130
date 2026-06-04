@@ -1,7 +1,7 @@
 /*Placeholder for now. Will fix and personalize details later*/
 :root {
     --primary-color: rgb(26, 19, 92);
-    --secondary-color: rgb(66, 165, 183);
+    --secondary-color: rgb(17, 144, 166);
     --accent1-color: rgba(38, 70, 83, 0.8);
     --accent2-color: rgba(255, 255, 255, 0.8);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -29,6 +29,7 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
+    font-family: var(--heading-font);
 }
 
 header img {
@@ -41,7 +42,6 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
 p,
 section,
 article {
@@ -53,19 +53,23 @@ p {
     color: var(--secondary-color);
 }
 
-nav {
+.navheader {
     display: flex;
     justify-content: space-evenly;
 }
 
-nav a {
+.navheader a {
     color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.socialmedia {
+    width: 50px;
+    height: auto;
 }
 
 .socialmedia a {
     text-decoration: none;
-    width: 50px;
-    height: auto;
 }
 
 .hero {
