@@ -52,26 +52,32 @@ main img {
     width: 250px;
     height: auto;
     border: 2px solid var(--secondary-color);
-    padding: 0;
     box-shadow: 10px 10px 5px gray;
+    float: right;
+    margin-top: 10px;
 }
 
 p {
-    padding: 0;
+    padding: var(--padding);
     color: var(--secondary-color)
+}
+
+ul li a {
+    /**/
 }
 
 aside {
     width: 20rem;
-    margin: 10px;
-    border: 1px solid var(--secondary-color);
-    padding: var(--padding);
-    background-color: #eee;
-    color: var(--secondary-color);
     text-align: center;
     position: relative;
     grid-column: 1 / 2;
-    grid-row: 1 / 2
+    grid-row: 1 / 2;
+}
+
+aside h2 {
+    position: absolute;
+    right: 78px;
+    color: rgb(249, 209, 209);
 }
 
 aside img {
@@ -85,4 +91,14 @@ footer {
     border-top: 2px dashed var(--secondary-color);
     text-align: center;
     margin-top: 20px;
+}
+
+/*Class Selectors*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+    background-color: #eee;
+    color: var(--secondary-color);
 }
