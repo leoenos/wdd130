@@ -56,6 +56,7 @@ p {
 .navheader {
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
 }
 
 .navheader a {
@@ -111,13 +112,9 @@ p {
     width: 125px;
 }
 
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
 }
