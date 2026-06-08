@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>BTS Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="useremail" name="useremail" required>
+
+            <label for="bias">Choose your bias.</label>
+            <select name="bias" id="bias">
+                <option value="1">RM</option>
+                <option value="2">Jin</option>
+                <option value="3">SUGA</option>
+                <option value="4">j-hope</option>
+                <option value="5">Jimin</option>
+                <option value="6">V</option>
+                <option value="7">Jungkook</option>
+            </select>
+
+            <label for="plush">Do you have a BT21 Character plush?</label>
+            <input type="checkbox" id="plush" name="plush">
+
+            <label for="feedback">List the places you have seen a concert:</label>
+            <textarea id="feedback" name="feedback" rows="4"
+              placeholder="Seattle, Las Vegas, San Francisco"></textarea>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Borahae ig</p>
+    </footer>
+</body>
+
+</html>
