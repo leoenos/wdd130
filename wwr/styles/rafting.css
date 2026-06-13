@@ -146,3 +146,102 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Contact Us Page */
+
+.company-info {
+    text-align: center;
+}
+
+.company-info address {
+    font-style: normal;
+    line-height: 1.8;
+    color: var(--secondary-color);
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #ccc;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+fieldset label {
+    display: block;
+    margin: 8px 0;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form button {
+    padding: 12px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form button:hover {
+    opacity: 0.9;
+}
+
+.employees {
+    text-align: center;
+}
+
+.employee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.employee-grid img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.employee figure {
+    text-align: center;
+}
+
+.employee figcaption {
+    margin-top: 10px;
+}
