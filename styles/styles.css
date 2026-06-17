@@ -46,6 +46,7 @@ h1 {
 main {
     grid-column: 2 / 3;
     margin: 1rem;
+    max-width: 850px;
 }
 
 main img {
@@ -55,11 +56,13 @@ main img {
     box-shadow: 10px 10px 5px gray;
     float: right;
     margin: 15px 0 5px 1rem;
+    padding: 10px;
 }
 
 p {
     margin: 0.5rem;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    padding: 0;
 }
 
 aside {
@@ -68,6 +71,11 @@ aside {
     position: relative;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #eee;
+    color: var(--secondary-color)
 }
 
 aside h2 {
