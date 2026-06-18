@@ -147,6 +147,10 @@ footer {
     align-items: center;
 }
 
+footer p {
+    padding: 10px;
+}
+
 /* Contact Us Page */
 
 .company-info {
